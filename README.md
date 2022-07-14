@@ -1,5 +1,8 @@
-# Machine-Learning-Deep-Learning-Classification-Implementation
-This program is the implementation of Machine Learning and Deep Learning Techniques such as: Logistic Regression, Decision Tree, Random Forest, SVM, and DNN methods with MinMax Normalization ([0,1]-Normalizaton)
+# Machine-Learning-Deep-Learning-Classification-Implementation with MinMax Normalization
+This program is the implementation of Machine Learning and Deep Learning Techniques such as: Logistic Regression, Decision Tree, Random Forest, SVM, and DNN methods with MinMax Normalization ([0,1]-Normalizaton).
+
+# Recommendation of use 
+To use Juoyter Notebook version of the code to better understand the all implemented mechine learning and deep learning techniques
 
 # Logistic Regression (LR) 
 I used a Logistic Regression model to classify each participant as a stroke or control based on their performance in a robotic task. For that purpose, I implemented a logistic regression classifier that was fitted in the binary logistic regression regularization. This regularization added a penalty as model complexity increased to ensure the model generalized the data and prevented overfitting with an increase in parameters. LR model assumes a linear relationship between the input features and output. The binary logistic model had a dependent variable with two possible outcomes as healthy control and stroke. 
@@ -7,7 +10,7 @@ I used a Logistic Regression model to classify each participant as a stroke or c
 # Decision Tree (DT)
 I implemented a Decision Tree classifier as one of predictive modeling. It uses a tree-like model in which each internal node (non-leaf) is labeled with an input feature. The arcs coming from a node (branch) labeled with an input feature are labeled with each of the possible values of the target feature or the arcs leads to a subordinate decision node on a different input feature. Each leaf node is labeled with a class either healthy control or stroke. This model splits the nodes of all available features/parameters and then selects the splits, which results in the most homogeneous sub-nodes.
 
-# Random Forest (RF). 
+# Random Forest (RF) 
 I implemented an ensemble learning model (i.e., a Random Forest classifier). It is a classification algorithm consisting of many decision trees, which uses bagging and feature randomness when building each individual tree. It tries to create an uncorrelated forest of trees whose prediction by committee is more accurate than that of any individual tree. The output of the random forest model was the class selected by most trees.
 
 # Random Forest with Hyperparameters Tuning (RFT)
