@@ -2,7 +2,7 @@
 This program is the implementation of Machine Learning and Deep Learning Techniques such as: Logistic Regression, Decision Tree, Random Forest, SVM, and DNN methods with MinMax Normalization ([0,1]-Normalizaton).
 
 # Recommendation of use 
-To use Juoyter Notebook version of the code to better understand the all implemented mechine learning and deep learning techniques
+Please use Jupyter Notebook version of the code to better understand the all implemented mechine learning and deep learning techniques
 
 # Logistic Regression (LR) 
 I used a Logistic Regression model to classify each participant as a stroke or control based on their performance in a robotic task. For that purpose, I implemented a logistic regression classifier that was fitted in the binary logistic regression regularization. This regularization added a penalty as model complexity increased to ensure the model generalized the data and prevented overfitting with an increase in parameters. LR model assumes a linear relationship between the input features and output. The binary logistic model had a dependent variable with two possible outcomes as healthy control and stroke. 
